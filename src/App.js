@@ -1,5 +1,10 @@
 import React from 'react';
-import {BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
 import Footer from './Components/Footer/Footer'
 import Navbarmenu from './Components/Header/Navbarmenu';
 import Home from './Pages/Home/Home';
@@ -24,7 +29,7 @@ function App() {
           <Redirect to="/" />
         </Switch>
         </main>
-        <Footer />
+        <Footer/>
       </Router>
 
     </>

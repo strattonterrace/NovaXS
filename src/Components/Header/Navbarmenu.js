@@ -49,7 +49,7 @@ const Navbarmenu = () => {
                 </div>
 
                 <div className="header__middle__menus">
-                    <nav className="main-nav " >
+                    <nav className="main-nav" >
 
                     {/* Responsive Menu Button */}
                     {isResponsiveclose === true ? <> 
@@ -82,17 +82,9 @@ const Navbarmenu = () => {
                         </ul>
                     </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/contact`}> CONTACT </NavLink> </li>
-
                     </ul>
-
-
                     </nav>     
-                </div>   
-
-
-              
-        
-        
+                </div>           
             </div>
 	    </div>
     </header>
