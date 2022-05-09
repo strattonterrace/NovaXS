@@ -7,35 +7,40 @@ const Footer = () => (
   <footer>
       <div className="container">
           <div className="row">
-              <div className="col-sm-6 col-md-3 item">
-                  <h3>Pipeline</h3>
-                  <ul> 
-                      <li><a href="/pipeline/#telosis__anchor__tag">TELOSIS</a></li>
-                      <li><a href="/pipeline/#timeline__anchor__tag">TIMELINE</a></li>
-                  </ul>
-              </div>
-              <div className="col-sm-6 col-md-3 item">
+
+
+          <div className="col-sm-6 col-md-3 item">
                   <h3>Contact Info</h3>
                   <ul>
-                      <li><a href="mailto:novaxs@gmail.com" target="_blank" rel="noreferrer">novaxs@gmail.com</a></li>
-                      <li><a href="facetime:18001231234" target="_blank" rel="noreferrer" >(800) 111-1234‬</a></li>
-                      <li><a href="https://goo.gl/maps/ZDiZ9GXHWGkwPCwQ8" target="_blank" rel="noreferrer" >1234 address <br/> LosAngeles, CA 90210</a></li>
+                      <li><a href="mailto:info@novaxs.co" target="_blank" rel="noopener noreferrer" >info@novaxs.co</a></li>
+                      <li><a href="facetime:19493837619" target="_blank" rel="noopener noreferrer" >(949) 383-7619</a></li>
+                      <li><a href="https://goo.gl/maps/oVgYYD13gh37Uavh7" target="_blank" rel="noopener noreferrer" >8 Panorama Trabuco Canyon, CA</a></li>
                   </ul>
               </div>
+              <div className="col-sm-6 col-md-3 item">
+                  <h3>LEGAL INFORMATION</h3>
+                  <ul> 
+                      <li><a href="/">DMCA Policy</a></li>
+                      <li><a href="/">Terms and Conditions</a></li>
+                      <li><a href="/">Privacy Policy</a></li>
+
+                  </ul>
+              </div>
+          
               <div className="col-md-6 item text">
-                  <h3>NovaXs biotech</h3>
+                  <h3>NovaXS Biotech</h3>
                   <p>
-                  NovaXS is a therapeutic startup focused on improving treatment efficacy through advanced drug delivery platform and innovative CRISPR gene therapy on Duchenne Muscular Dystrophy
+                  NovaXS is a therapeutic startup focused on improving treatment efficacy through an advanced drug delivery platform and innovative CRISPR gene therapy nanoparticle delivery. 
                   </p>
               </div>
               <div className="col item social">
-                <a href="https://www.linkedin.com/company/novaxs-biotech-corp/" target="_blank" rel="noreferrer" >  <i className="fab fa-linkedin-in icon"></i></a>
-                <a href="mailto:novaxs@gmail.com" target="_blank" rel="noreferrer" ><i className="fa fa-envelope icon" ></i></a>
-                <a href="https://www.instagram.com" target="_blank" rel="noreferrer" ><i className="fab fa-instagram icon"></i></a>
-                <a href="https://goo.gl/maps/ZDiZ9GXHWGkwPCwQ8" target="_blank" rel="noreferrer" ><i className="fab fa-google icon"></i></a>
+                <a href="https://www.facebook.com/Nova-XS-Biotech-260711482451882/" target="_blank" rel="noopener noreferrer" >  <i className="fab fa-facebook-f "></i></a>
+                <a href="https://www.linkedin.com/company/novaxs-biotech-corp/" target="_blank" rel="noopener noreferrer" ><i className="fab fa-linkedin "></i></a>
+                <a href="mailto:info@novaxs.co" target="_blank" rel="noopener noreferrer" ><i className="fa fa-envelope " ></i></a>
+                <a href="https://goo.gl/maps/kbgx1STFFrQ5FTzh7" target="_blank" rel="noopener noreferrer" ><i className="fab fa-google "></i></a>
                 </div>
           </div>
-          <p className="copyright">NovaXs biotech© 2022</p>
+          <p className="copyright">NovaXS Biotech LLC © 2022</p>
       </div>
   </footer>
 </div>

@@ -48,7 +48,6 @@ const Navbarmenu = () => {
                     </NavLink>
                 </div>
 
-                <div className="header__middle__menus">
                     <nav className="main-nav" >
 
                     {/* Responsive Menu Button */}
@@ -85,7 +84,6 @@ const Navbarmenu = () => {
                     </ul>
                     </nav>     
                 </div>           
-            </div>
 	    </div>
     </header>
     )
