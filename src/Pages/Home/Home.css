@@ -39,7 +39,7 @@
   color: #fff;
   line-height: 2em;
   letter-spacing: .1em;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 
@@ -54,7 +54,7 @@
 }
 
 .Home__h3__0{
-  margin: 0px 50px;
+  margin: 0px 25px;
   font-weight: bold;
   color: #70BED1;
   text-align: center;
@@ -87,6 +87,9 @@
 
 .Home__col__wrapper{
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
 }
 
 .Home__h3{
@@ -123,10 +126,10 @@ transition: 1s ease-in-out;
 } */
 
 #Home__row1__button{
-margin: 50px;
+margin: 25px;
 background-color: #70BED1;
 color: white;
-border-radius: 5px;
+border-radius: 50px;
 padding: 10px 60px;
 font-size: 20px;
 font-weight: bold;
@@ -137,18 +140,18 @@ transition: .5s ease-in-out;
  #Home__row1__button:hover{
  color: #70BED1;
  background-color: white;
-border-radius: 5px;
+ border-radius: 50px;
 font-size: 20px;
 font-weight: bold;
 }
 
 .Home__h2{
-color: #000;
 text-align: center !important;
-font-size: 40px;
-margin: 0px 20px;
+font-size: 1.5rem;
+margin: 0px 10px;
 font-weight: bold;
 letter-spacing: .1em;
+color: #70BED1;
 
 }
 
@@ -211,11 +214,11 @@ background-position: center;
 display: none;
 }
 .Home__row{
-margin: 10% 0%;
+margin: 5% 0%;
 }
 
 .Home__h3{
-margin: 10% 0%;
+margin: 5% 0%;
 font-weight: bold;
 color: #70BED1;
 text-align: center;
@@ -225,7 +228,7 @@ font-size: 25px;
 
 
 .Home__p{
-margin: 15px 0px;
+margin: 10px 0px;
 font-size:15px;
 letter-spacing: .1em;
 
@@ -235,8 +238,8 @@ text-align: center;
 #Home__row1__button{
 max-width:90%;
 font-size: 15px;
-border-radius: 5px;
-margin: 10%;
+border-radius: 50px;
+margin: 5%;
 padding: 10px;
 font-size: 15px;
 align-items: center;
@@ -254,8 +257,8 @@ transition: .5s ease-in-out;
  #Home__row1__button:hover{
 max-width:90%;
 font-size: 15px;
-border-radius: 5px;
-margin: 10%;
+border-radius: 50px;
+margin: 5%;
 padding: 10px;
 font-size: 15px;
 align-items: center;
@@ -272,12 +275,11 @@ transition: .5s ease-in-out;
 
 .Home__h2{
 margin: 5%;
-color: #000;
 text-align: center;
-font-size: 25px;
+font-size: 1.1rem;
 font-weight: bold;
 letter-spacing: .1em;
-
+color: #70BED1;
 }
 
 .Home__row__2{
@@ -290,3 +292,235 @@ align-items: center;
 }
 
 }
+
+
+.About{
+  background-color: #fafafa;
+  scroll-behavior: smooth;
+  }
+
+
+.About__row{
+  margin: 5% 10% 1% 10% ;
+  }
+
+    .About__h1{
+      margin: 0px 60px;
+      font-weight: bold;
+      color: #70BED1;
+      text-align: left;
+      font-size: 40px;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+    }
+    .About__h1__2{
+      color: #2e2e2e;
+      text-align: center;
+      font-size: 1.5rem;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .About__p{
+      margin: 10px 60px;
+      font-size: 20px;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+      text-align: left;
+    }
+    .About__p__2{
+      margin: 25px 10px;
+      font-size:15px;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+      text-align: left;
+    }
+
+    #About__R2__col1{
+      float: left;
+      width: 50%;
+      padding: 5%;
+    }
+
+    #About__R2__col2{
+      float: right;
+      width: 50%;
+      padding: 5%;
+    }
+ 
+  #About_img__body {
+      max-width: 100%;
+      height: auto;
+      max-height: 90vh;
+      border-radius: 5px;
+      -webkit-transition: .3s ease-in-out;
+      transition: 1s ease-in-out;
+  }
+
+  #About_img__body:hover {
+    max-width: 102%;
+    height: auto;
+    -webkit-transition: .3s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+#About__p__1{
+  padding-right: 10px;
+  }
+
+
+.About__h5{
+  color: #70BED1;
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+  .About__h3{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  }
+  
+  #About__row1__button{
+      margin: 40px 0px;
+      background-color: #70BED1;
+      color: white;
+      border-radius: 5px;
+      padding: 10px 60px;
+      font-size: 20px;
+      font-weight: bold;
+      -webkit-transition: .3s ease-in-out;
+      transition: .5s ease-in-out;
+       }
+       #About__row1__button:hover{
+       color: #70BED1;
+       background-color: #fafafa;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        }
+#mobile_fix{
+display: none;
+}
+
+
+        @media (max-width: 500px){
+
+
+.About__row{
+  margin: 10% 0%;
+  }
+
+
+  .About__h1{
+    margin: 10% 0%;
+    color: #70BED1;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-family: 'Lato', sans-serif;
+  }
+  .About__h1__2{
+    color: #2e2e2e;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: .1em;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .About__p{
+    margin: 15px 10px;
+    font-size:15px;
+    letter-spacing: .1em;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  .About__p__2{
+    margin: 25px 10px;
+    font-size:15px;
+    letter-spacing: .1em;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+  }
+
+  #About__R2__col1{
+    float: left;
+    width: 100%;
+    padding: 5%;
+  }
+
+  #About__R2__col2{
+    float: right;
+    width: 100%;
+    padding: 5%;
+  }
+
+  .About__h5{
+    color: #70BED1;
+    font-size: 15px;
+    padding-bottom: 5%;
+  }
+
+
+  #About__p__1{
+    padding-right: 10px;
+    font-size:15px;
+    letter-spacing: .1em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    }
+
+
+    .About__h5{
+      color: #70BED1;
+      font-size: 15px;
+      padding-bottom: 5%;
+    }
+  
+      .About__h3{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Lato', sans-serif;
+      }
+
+
+      #About__row1__button{
+        max-width:90%;
+        font-size: 15px;
+        border-radius: 5px;
+        margin: 10%;
+        padding: 10px;
+        font-size: 15px;
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #70BED1;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        -webkit-transition: .3s ease-in-out;
+        transition: .5s ease-in-out;
+         }
+
+         
+         #About__row1__button:hover{
+          max-width:90%;
+          font-size: 15px;
+          border-radius: 5px;
+          margin: 10%;
+          padding: 10px;
+          font-size: 15px;
+          align-items: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #70BED1;
+          color: white;
+          text-align: center;
+          font-weight: bold;
+          -webkit-transition: .3s ease-in-out;
+          transition: .5s ease-in-out;
+          }
+        }

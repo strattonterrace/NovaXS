@@ -1,5 +1,6 @@
 .header__container {
 width: 100%;
+position: fixed;
 background-color: #fff;
 padding-right:15px;
 padding-left:15px;
@@ -151,7 +152,7 @@ li {
 
 @media(max-width:991px){
 .header__middle__logo {width: 77%;}
-.header__middle__logo img {max-width: 197px;margin: 27px 0 0 0;}
+.header__middle__logo img {max-width: 10;margin: 27px 0 0 0;}
 .main-nav .menubar__button:hover {background-color: #2e2e2e;}
 .main-nav .menu-item:hover > a {color: #07a8ff !important}
 .main-nav .menubar__button {
@@ -178,7 +179,7 @@ li {
   padding-bottom: 50%;
   padding-top: 20%;
 }
-.main-nav .menu-item a {margin: 10px 17px;text-align: center;color: #000000;}
+.main-nav .menu-item a {margin: 10% 17px;text-align: center;color: #000000;}
 .main-nav  ul.main-menu {display: none}
 .main-nav .sub__menus__arrows:hover .sub__menus {margin: 0 auto;left: 0;right: 0;}
 .sub__menus__Active{display: block!important;margin: 0 auto;left: 0;right: 0;}
