@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body {
-  background-color: #fafafa!;
+  background-color: #fafafa !important;
   margin: auto;
   padding: 0px;
   overflow-x: hidden;

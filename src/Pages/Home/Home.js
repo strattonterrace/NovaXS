@@ -9,13 +9,16 @@ import partnerlogoone from '../../Assets/Partners/1.png'
 import partnerlogotwo from '../../Assets/Partners/2.png'
 import partnerlogothree from '../../Assets/Partners/3.png'
 import partnerlogofour from '../../Assets/Partners/4.png'
+import product from '../../Assets/Product/IMG_6844.png'
+
+
+
 
 function Home() {
   return (
     <div className="Home">
        <div className="Home__Banner">
        <HomeVideo />
-
        </div>
        <Row className="Home__row__0" >  
         <h3 className="Home__h3__0">
@@ -69,9 +72,22 @@ function Home() {
           Speak with an Expert</button>
               </a>
         </Row>
-        
-        <Row className="Home__row__2" >
 
+        <div className="Home__middle__section">
+        <img id = "Home_product" src={product} alt="icon"/>
+        <h3 className="Home__h3__0">
+        Telosis
+          </h3>
+          <p  className="Home__p__4">
+          Needle anxiety is one of the biggest challenges for patients to self-administer biological medicines, including diabetes, arthritis, growth hormone deficiency, etc. 
+          Therefore, we have designed our patented drug delivery technology, consulted with 100+ clinical practitioners and 500+ patients, 
+          to maximize the treatment effectiveness and minimize pain and aims to increase medication intake by stimulating cell membrane with a brief high-voltage pulse,
+           which enables a reversible breakdown and results in better medication delivery. anxiety associated with traditional needle-based injection devices. 
+         </p>              
+        </div>
+
+
+        <Row className="Home__row__2" >
         <Col className="Home__R2__col1" xl="6">
         <h2 className="Home__h2__r2">Partnership You Can Trust</h2>
         <p  className="Home__p__1">
