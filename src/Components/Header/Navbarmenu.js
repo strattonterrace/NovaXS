@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './Navbarmenu.css'
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle } from "react-icons/fi";
-import logo from '../../Assets/Logo/Logo.png';
+import logo from '../../Assets/Logo/Logo.webp';
 
 
 const Navbarmenu = () => {
@@ -63,7 +63,7 @@ const Navbarmenu = () => {
                     </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> PIPELINE</Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/telosis`}>TELOSIS </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/breastpump`}>BREASTPUMP</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/timeline`}> TIMELINE </NavLink> </li>
                         </ul>
                     </li>
@@ -76,7 +76,7 @@ const Navbarmenu = () => {
                     </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> ABOUT US</Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/about-nova-xs`}>ABOUT NOVA XS </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/about`}>ABOUT CAL MED HAWAII</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/partnerships`}> PARTNERSHIPS </NavLink> </li>
                         </ul>
                     </li>

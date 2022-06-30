@@ -1,16 +1,16 @@
 import React from 'react'
 import './HomeVideo.css'
 import Typewriter from 'typewriter-effect'
-import videoBg from '../../Assets/videos/videoBg1.mp4'
+import homeBackground from '../../Assets/videos/bg-home1.jpg'
 
 const HomeVideo = () => {
   return (
     <div className='main'>
         <div className="overlay"></div>
-        <video src={videoBg} autoPlay loop muted type='video/mp4' />
+        <img src={homeBackground} />
         <div className="content">
         <h1 className="Content__Home__h1">Enabling Greater <br/>Access To
-            <span className="emphasis-1"> Life Improving  Pharmaceuticals</span> 
+            <span className="emphasis-1"> Life Improving <br/>  Solutions</span> 
           </h1>
         <Typewriter
         onInit={(typewriter) => {
@@ -18,7 +18,7 @@ const HomeVideo = () => {
             .typeString('<span style="color: #FAFAFA;"></span>')
             .pauseFor(500)
             .deleteAll()
-            .typeString('<span style="color: #FAFAFA;"> NovaXs Biotech </span>')
+            .typeString('<span style="color: #FAFAFA;"> Cal Med Hawaii</span>')
             .start()
         }}
       />

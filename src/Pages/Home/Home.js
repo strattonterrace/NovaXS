@@ -22,13 +22,13 @@ function Home() {
        </div>
        <Row className="Home__row__0" >  
         <h3 className="Home__h3__0">
-          A revolutionary advancement in biological administration
+          Live Better
           </h3>
           <p className="Home__p__0">
-          A smart drug delivery platform that administers a narrow stream of medication without a needle in 0.3 seconds and analyzes your injection data to help you make smarter health decisions.
+          Here you will find a list of popular breast pumps and insurance plans that we accept for all islands.
           <br/>
           <br/>
-          Brought to you by NovaXS Biotech.
+          Brought to you by Cal Med Hawaii.
           </p>
           <a href='/' target='_blank'>          
           <button id='Home__row1__button'>
@@ -41,7 +41,7 @@ function Home() {
          <img id = "Home_icon" src={bottle} alt="bottle"/>
          <h3 className="Home__h3">Accessibility</h3>
          <p  className="Home__p__0">
-         Needle-free subcutaneous and intramuscular injection
+         Here you will find a list of popular breast pumps and insurance plans that we accept for all islands.
          </p>
          </div>
         </Col>
@@ -76,13 +76,16 @@ function Home() {
         <div className="Home__middle__section">
         <img id = "Home_product" src={product} alt="icon"/>
         <h3 className="Home__h3__0">
-        Telosis
+        Spectra S1 Double Electric Breast Pump
+
           </h3>
           <p  className="Home__p__4">
-          Needle anxiety is one of the biggest challenges for patients to self-administer biological medicines, including diabetes, arthritis, growth hormone deficiency, etc. 
-          Therefore, we have designed our patented drug delivery technology, consulted with 100+ clinical practitioners and 500+ patients, 
-          to maximize the treatment effectiveness and minimize pain and aims to increase medication intake by stimulating cell membrane with a brief high-voltage pulse,
-           which enables a reversible breakdown and results in better medication delivery. anxiety associated with traditional needle-based injection devices. 
+          The Spectra S1 soft blue electric breast pump is designed to bring confidence and comfort to every moment of the breastfeeding journey. 
+          The S1, which is portable and quickly rechargeable for active moms, is also quiet and discreet for soothing pumping and yet weighs only 2.9lbs. 
+          With the quietest motor available for the S1Plus, which when in the “message mode” simulates the natural suckling of the baby. 
+          Spectra Baby spent years developing features for the S1 Plus like “backflow protection” to keep your breast milk from harmful bacteria, mold, and viruses while pumping.
+
+
          </p>              
         </div>
 
@@ -91,9 +94,12 @@ function Home() {
         <Col className="Home__R2__col1" xl="6">
         <h2 className="Home__h2__r2">Partnership You Can Trust</h2>
         <p  className="Home__p__1">
-        At NovaXS Biotech, we are committed to bringing your vaccine to the world through a system that’s fast, safe, and easy-to-use. 
-        Our products hold WHO PQS certification and CE Mark for intradermal, intramuscular, and subcutaneous use. 
-        We believe that vaccines should be available to all, safe for everyone, and effective in the global fight against disease.
+        The founders of CalMed Hawaii, Levy Bynum and her son David Scheidt, were born and raised on the Westside of Oahu. 
+        In 1978, Levy’s son/ David’s younger brother, Darren, became paralyzed at 10 years of age causing the family to relocate to Southern California 
+        for access to spinal specialists that were not available on island at that time. As Darren’s caretaker, 
+        Levy educated herself on best practices with regard to providing quality care and understanding how medical supply options contribute to the patient’s quality of life. 
+        In the late 1990s, Levy and Darren worked from a spare room in Levy’s Buena Park, CA 
+        residence subcontracting to a small medical supply company providing disposable medical supplies to patients.
          </p>
          <h3 className="Home__h3__2">Here are just a few of our 20+ valued partners</h3>
          <Row className="Home__row__3" >
