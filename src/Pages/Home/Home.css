@@ -15,6 +15,7 @@
   -o-background-size: cover;
 }
 
+
 .Home__h1{
   display: inline-block;
   margin-top: 5%;
@@ -32,6 +33,7 @@
     0 0 102px #70BED1,
     0 0 11px #70BED1;
 }
+
 
 .Home__row__0{
   margin: 5% 10% 1% 10%;
@@ -68,7 +70,9 @@
    display: flex;
    flex-wrap: nowrap;
    margin: 3% 1% 1% 5%;
+
    }
+
 
    .Home__middle__section{
     min-height: 100vh;
@@ -227,6 +231,8 @@ margin: 3% 1%;
 max-width: 100%;
 align-items: center;
  }
+
+
 }
 
  @media (max-width: 500px){
